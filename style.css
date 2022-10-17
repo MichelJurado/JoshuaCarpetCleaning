@@ -1,0 +1,286 @@
+@media screen and (max-width:400px){
+    nav{
+        background-color: #1a1b1f;
+        padding: 20px;
+        color:white;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-around;
+        font-family: Montserrat, sans-serif;
+    }
+
+    .banner-pic{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .About-Us{
+        font-family: Montserrat, sans-serif;
+    }
+
+    .About-Us h3{
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .About-Us p{
+        font-size: 21px;
+        padding: 10px;
+        text-align: -webkit-center;
+    }
+    
+    .wrap-around{
+        display: flex;
+        margin: 10px;
+    }
+
+    .wrap-around img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+
+    .beforeandafter{
+        margin: 10px;
+    }
+
+    .beforeandafter img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+
+    .wrap-around2{
+        display: flex;
+        margin: 10px;
+    }
+
+    .wrap-around2 img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+
+    .Reviews{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+    }
+
+    .Reviews2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+    }
+
+    .Reviews2 h5{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .Reviews h5{
+        text-align: center;
+    }
+
+    .Reviews div{
+        padding: 10px;
+    }
+
+    .Reviews p{
+        text-align: center;
+    }
+
+    .Review-text{
+        text-align: center;
+        font-size: 21px;
+        font-family: Montserrat, sans-serif;
+    }
+
+    .Review-text h3{
+        margin-bottom: 0px;
+    }
+
+    footer{
+        font-size: 15px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:400px) {
+    nav{
+        background-color: #1a1b1f;
+        padding: 20px;
+        color: white;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        height: 100px;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .banner-pic{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        height: 430px;
+    }
+    
+    .About-Us{
+        font-family: Montserrat, sans-serif;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .About-Us h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .About-Us p{
+        font-size: 28px;
+        padding: 10px;
+        text-align: -webkit-center;
+    }
+    
+    .wrap-around{
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+    }
+    
+    .wrap-around div{
+        width: 750px;
+    }
+    
+    .wrap-around img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        height: 550px;
+    }
+    
+    .beforeandafter{
+        margin: 10px;
+        width: 1500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .beforeandafter img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        height: 700px;
+    }
+    
+    .wrap-around2{
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+    }
+    
+    .wrap-around2 div{
+        width: 750px;
+    }
+    
+    .wrap-around2 img{
+        display: block;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        height: 550px;
+    }
+    
+    .Reviews{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        font-family: Montserrat, sans-serif;
+        font-size: 29px;
+        justify-content: center;
+    }
+    
+    .Reviews2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        font-family: Montserrat, sans-serif;
+        font-size: 29px;
+        justify-content: center;
+    }
+    
+    .Reviews2 h5{
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .Reviews h5{
+        text-align: center;
+    }
+    
+    .Reviews div{
+        padding: 10px;
+    }
+    
+    .Reviews p{
+        text-align: center;
+    }
+    
+    .Review-text{
+        text-align: center;
+        font-size: 40px;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .Review-text h3{
+        margin-bottom: 0px;
+    }
+    
+    footer{
+        font-size: 25px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        
+        padding: 5px;
+    }
+    
+}
